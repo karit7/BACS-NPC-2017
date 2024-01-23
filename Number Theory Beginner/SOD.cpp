@@ -31,7 +31,6 @@ int sod(int n){
                 exp++;
                 n /= pr[i];
             }
-            //pow is slow; except, use bin pow.
             tot *= (pow(pr[i], exp + 1) - 1) / (pr[i] - 1);
         }
     }

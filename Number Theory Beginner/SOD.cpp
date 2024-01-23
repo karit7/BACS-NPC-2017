@@ -44,6 +44,6 @@ int main(){
     int n;
     cin >> n;
     seive(n);
-    cout << sod(n) << "\n";
+    cout << sod(n);
     return 0;
 }

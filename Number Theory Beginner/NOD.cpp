@@ -43,6 +43,6 @@ int main(){
     int n;
     cin >> n;
     seive(n);
-    cout << nod(n) << "\n";
+    cout << nod(n);
     return 0;
 }

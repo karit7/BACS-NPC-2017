@@ -41,6 +41,6 @@ int main(){
     int n;
     cin >> n;
     seive(n);
-    cout << eular(n) << "\n";
+    cout << eular(n);
     return 0;
 }
